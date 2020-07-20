@@ -1,0 +1,79 @@
+@import url('common.css');
+
+
+main .main_ct{
+    width:80%;
+    height:528px;
+    margin:0 auto;
+}
+main .main_ct img{width:100%;}
+main .main_ct figure{
+    widows: 8px;0%;
+    text-align:center;
+    margin:0 auto;
+    padding:0 auto;
+    position:relative;
+
+}
+
+main .main_ct figure ul{
+    position:absolute;
+    left:0; top:0;
+    z-index:0;
+}
+main .main_ct figure ul li{
+    width:315px; height:89px;
+    background-color:rgba(37,46,64,0.7);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    margin-bottom:6px;
+    z-index:2;
+}
+main .main_ct figure ul li:hover{
+    background-color:rgba(0,0,0,0.4);
+}
+
+
+
+
+
+main .main_bset{
+    width:80%;
+    margin:0 auto;
+    padding-top:90px;
+}
+main .main_bset strong{
+    font-size:20px;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
+    color:#4bb3a1;
+}
+main .main_bset small{
+    font-size:18px;
+    font-family: 'Gothic A1', sans-serif;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:20px;
+
+}
+
+main .main_bset ul{
+    text-align:center;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:space-around; 
+    align-content: space-around;
+    padding-top:20px;
+}
+main .main_bset ul li{}
+main .main_bset ul li a img{}
+main .main_bset ul li a p{
+    margin:0 auto;
+    padding-top:9px;
+    padding-bottom:40px;
+    text-align:left;
+    white-space:pre-line;
+}

@@ -1,0 +1,53 @@
+@import url('common.css');
+
+
+main .m_h{
+    width:80%;
+    margin:0 auto;
+}
+main .m_h img{width:100%;}
+main .m_h ul{
+    margin-bottom:8px;
+}
+main .m_h ul li{
+    display:inline-block;
+}
+
+
+main .m_m{
+    width:80%;
+    margin:0 auto;
+    padding-top:90px;
+}
+main .m_m strong{
+    font-size:20px;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
+    color:#4bb3a1;
+}
+main .m_m small{
+    font-size:18px;
+    font-family: 'Gothic A1', sans-serif;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:20px;
+
+}
+
+main .m_m ul{
+    text-align:center;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:space-around; 
+    align-content: space-around;
+    padding-top:20px;
+}
+main .m_m ul li{}
+main .m_m ul li a img{}
+main .m_m ul li a p{
+    margin:0 auto;
+    padding-top:9px;
+    padding-bottom:40px;
+    text-align:left;
+    white-space:pre-line;
+}

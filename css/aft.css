@@ -1,0 +1,85 @@
+@import url('common.css');
+
+main{    
+    margin:0 auto;
+    width:80%;
+}
+
+main .notice1{   
+    width:100%;
+    border-collapse:collapse; 
+}
+main .notice1 caption{
+    text-align:left;
+    border-bottom:2px solid #222c3e;
+    font-size:20px;
+    padding-bottom:16px;
+    
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    padding-top:20px;
+}
+
+main .notice1 th,
+main .notice1 td{
+    border-bottom:1px solid #616e85;
+    padding:10px 0;
+    text-align: center;
+}
+main .notice1 thead th{}
+main .notice1 tbody td:nth-of-type(1){
+    text-align:center;
+}
+main .notice1 tbody td:nth-of-type(3){
+    text-align:left;
+    width:70%;
+}
+
+main .notice1 tbody tr:nth-of-type(1){
+    background:#d7dbe3;
+    font-weight:bold;
+}
+main .notice1 tbody tr:nth-of-type(11){border-bottom:2px solid #222c3e;}
+
+main .btn_w{
+    width:100%;
+    margin:0 auto;
+    text-align:end;
+    padding-top: 15px;
+}
+main .btn_w a{
+    padding:10px;
+    border:1px solid#222c3e;
+    background:#f5b8bc;
+}
+
+main .btn{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    padding:15px;
+}
+main .btn input{
+    border:none;
+    background:#fff;
+    display:inline-block;
+    padding:0 10px;
+}
+main .btn p{
+    width:20px; height:20px;
+    margin:0 auto;
+    display:inline-block;
+}
+main .btn p:nth-of-type(1){
+    border:1px #222c3e;
+    border-radius:80%;
+    background:#d9dfe8;
+    color:#fff;
+}
+
+main .shc{
+    width:100%;
+    margin:0 auto;
+    padding-top:15px;
+}

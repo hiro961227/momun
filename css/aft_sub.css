@@ -1,0 +1,35 @@
+@import url('common.css');
+
+.aft_w{
+    width:40%;
+    margin:0 auto;
+    border: 1px solid #222c3e;
+    padding:30px;
+    text-align: center;
+}
+
+.aft_w legend{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    padding:10px;
+}
+
+.aft_w ul li label{
+    width:100px;
+   display: block;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+}
+.aft_w ul li .in_w{
+    width:200px;
+    height:25px;
+}
+
+.aft_w ul li .save1{
+    margin-top:15px;
+    border:1px solid #222c3e;
+    background:#f5b8bc;
+}

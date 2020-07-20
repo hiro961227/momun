@@ -1,0 +1,228 @@
+@import url('common.css');
+
+main{width:80%; margin:0 auto;}
+*{color:#222c3e;
+    font-size:15px;
+}
+main .help_main1{
+    width:100%; margin:0 auto;
+    padding:20px 0 50px 0;
+}
+main .help_1 h1{
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+main .help_1 .help_11{
+    margin:0 auto;
+    border-collapse:collapse;
+    border:1px solid#222c3e;
+    text-align: center;    
+    white-space:pre-line;
+    color:#222c3e;
+    font-size:18px;
+}
+main .help_1 .help_11 tr{}
+main .help_1 .help_11 tr th{
+    font-size:24px;
+    padding-top:10px;
+}
+main .help_1 .help_11 tr td{
+    padding:15px;
+}
+main .help_1 .help_11 tr td p{
+    margin:0 auto;
+    font-size:12px;    
+    color:#697995;    
+}
+main .help_1 thead{width:100%;}
+main .help_1 .help_11 tr th:nth-of-type(1){width:35%;}
+main .help_1 .help_11 tr th:nth-of-type(3){width:35%;}
+main .help_1 .help_11 tr th:nth-of-type(2){
+    widows: 30%;
+    border-left:1px solid#222c3e;
+    border-right:1px solid#222c3e;}
+main .help_1 .help_11 tr td:nth-of-type(2){
+    padding:10px 30px;    
+    border-left:1px solid#222c3e;
+    border-right:1px solid#222c3e;
+}
+/**/
+main .help_main2{
+    padding-bottom:50px;
+    overflow:hidden;}
+main .help_2{
+    width:48%; margin:0 auto;
+    float:left;
+}
+
+
+main .help21{
+    width:100%;
+    border-collapse:collapse;
+}
+main .help_2 th,
+main .help_2 td{
+    border-bottom:1px solid #616e85;
+    padding:10px 0;
+    text-align: center;
+}
+main .help_2 tbody td:nth-of-type(1){
+    width:75%;
+    text-align:left;
+    text-indent:8px;
+}
+main .help_2 tbody td:nth-of-type(2){
+    text-align:center;
+    width:25%;
+}
+
+main .help_2 tbody tr th:nth-of-type(1){
+    text-align:left;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding:20px 0 10px 0;
+}
+main .help_2 tbody tr th:nth-of-type(2){
+    text-align:end;
+}
+
+
+/**/
+main .help_3{
+    width:48%; margin:0 auto;
+    float:right;
+}
+
+main .help31{
+    width:100%;
+    border-collapse:collapse;
+}
+main .help_3 th,
+main .help_3 td{
+    border-bottom:1px solid #616e85;
+    padding:10px 0;
+    text-align: center;
+}
+main .help_3 tbody td:nth-of-type(1){
+    width:75%;
+    text-align:left;
+    text-indent:8px;
+}
+main .help_3 tbody td:nth-of-type(2){
+    text-align:center;
+    width:25%;
+}
+
+main .help_3 tbody tr th:nth-of-type(1){
+    text-align:left;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding:20px 0 10px 0;
+}
+main .help_3 tbody tr th:nth-of-type(2){
+    text-align:end;
+}
+/**/
+main .help_main3{overflow:hidden;}
+main .help_4{
+    width:48%; margin:0 auto;
+    float:left;
+}
+main .help_4 h1{
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding-top:20px;
+}
+
+main .help41{
+    width:100%;
+    border-collapse:collapse;
+}
+main .help_4 th,
+main .help_4 td{
+    border-bottom:1px solid #616e85;
+    padding:10px 0;
+    text-align: center;
+}
+main .help_4 tbody{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+}
+
+main .help_main3 .help41 tr td:nth-of-type(2){
+    text-align:left;
+}
+
+main .help_4 tbody tr th:nth-of-type(1){
+    text-align:left;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding:20px 0 10px 0;
+}
+main .help_4 tbody tr th:nth-of-type(2){
+    text-align:end;
+}
+
+/**/
+main .help_5{
+    width:48%; margin:0 auto;
+    float:right;
+
+}
+
+main .help_5 .help_52{
+    width:100%;
+    padding-bottom:10px;
+}
+main .help_5 h1{
+    width:92%;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    color:#4bb3a1;
+    font-size:20px;
+    padding-top:20px;
+    display:inline-block;
+}
+main .help_5 .help_52 p{
+    display:inline-block;
+    margin:0 auto;
+    font-weight:bold;
+    text-align:end;
+}
+
+main .help_5 .help_51{
+    padding:10px 0 10px 0;
+    border-top:1px solid #616e85;
+    border-top:1px solid #616e85;
+}
+main .help_5 .help_51 ul{
+    text-align:center;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:space-around; 
+    align-content: space-around;
+    padding-top:20px;
+}
+main .help_5 .help_51 ul li img{width:100%;}
+main .help_5 .help_51 ul li p{
+    margin:0 auto;
+    text-align: center;
+}
+main .help_5 .help_51 ul li p:nth-of-type(2){
+    font-size:12px;
+    color:#697995;
+    padding-bottom:8px;
+}
