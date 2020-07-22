@@ -19,7 +19,7 @@ main .m_m{
     margin:0 auto;
     padding-top:90px;
 }
-main .m_m strong{
+main .m_m h1{
     font-size:20px;
     font-family: 'Gothic A1', sans-serif;
     text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
@@ -50,4 +50,28 @@ main .m_m ul li a p{
     padding-bottom:40px;
     text-align:left;
     white-space:pre-line;
+}
+
+
+/*=====media======*/
+
+
+
+@media (min-width:480px) and (max-width:1160px){
+    
+    main .m_h{width:100%;}
+    main .m_h ul{
+        padding-left:25px;
+    }
+    
+    main .m_m h1{
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+        font-size:30px;
+    }
+    main .m_m ul li a p{
+        text-align: center;
+    }
+    
 }

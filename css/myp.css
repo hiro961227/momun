@@ -25,10 +25,11 @@
     text-align: center;
 
 }
-.notice1 thead th{}
+.notice1 thead th{text-align: center;}
 .notice1 thead .chb{
     width:100%;
     display:block;
+    margin:0 auto;
     text-align: center;
 }
 .notice1 tbody td:nth-of-type(1){width:2%;}
@@ -68,7 +69,6 @@
 .buy1{
     width:80%; margin:0 auto;
     padding-top:40px;
-
     text-align: end;
 }
 .buy1 a{
@@ -77,3 +77,56 @@
     margin-left:20px;
 }
 .buy1 a:nth-of-type(1){background:#f5b8bc;}
+
+/*=====media======*/
+
+
+
+@media (min-width:480px) and (max-width:1160px){
+    
+    .notice1{width:100%;}
+    
+    .notice1 caption{
+        width:100%;
+        text-align: center;
+        font-size:30px;
+    }
+    
+    .notice1 thead th:nth-of-type(1){
+        width:5%;        
+        text-align: center;
+    }
+    .notice1 thead th .chb{width:20px;height:20px;}
+    .notice1 tbody td:nth-of-type(1){
+        width:5%;        
+    }
+    .notice1 tbody td .chb{width:20px;height:20px;}
+    .notice1 tbody td:nth-of-type(2){
+        width:15%;
+    }
+    .notice1 tbody td img{width:100%;}
+    .notice1 tbody td:nth-of-type(3){
+         padding-left:20px;
+        font-size:18px;
+    }
+    .notice1 tbody td:nth-of-type(4){
+        width:10%;
+    }
+    .notice1 tbody td:nth-of-type(5){
+        width:5%;
+    }
+    .notice1 tbody td:nth-of-type(6){
+        width:10%;
+    }
+    .notice1 tbody td:nth-of-type(7){
+        width:15%;
+    }
+    
+    .buy1{
+        width:100%; 
+        margin:0 auto; 
+        text-align: center;
+        font-size:18px;
+    }
+    
+}

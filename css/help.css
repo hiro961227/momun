@@ -226,3 +226,135 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
     color:#697995;
     padding-bottom:8px;
 }
+
+
+/*=====media======*/
+
+
+
+@media (min-width:480px) and (max-width:1160px){
+    
+    main{width:100%;}
+    main .help_1 h1{
+        width:100%;
+        text-align: center;
+        font-size:30px;
+    }
+    main .help_1 .help_11{width:100%;}
+    main .help_1 .help_11 tr td{
+        padding:15px;
+        font-size:20px;
+    }
+    main .help_1 .help_11 tr td p{
+        margin:0 auto;
+        font-size:15px;    
+        color:#697995;    
+    }
+    
+    main .help_main2 .help_2 .help21 tr th:nth-of-type(1){font-size:30px;}
+    main .help_main2 .help_2 .help21 tr th:nth-of-type(2){padding-right:10px;}
+    main .help_main2{
+        width:100%;
+        text-indent:15px;
+    }
+    main .help_2{
+        width:100%;
+        float:none;
+        padding-bottom:50px;
+    }
+    main .help_2 tbody td:nth-of-type(1){
+        width:50%;
+        text-indent:25px;
+    }
+        main .help_2 tbody td:nth-of-type(1) a{
+        font-size:18px;
+    }
+    main .help_3{
+        width:100%;
+        float:none;
+    }
+    main .help_main2 .help_3 .help31 tr th:nth-of-type(1){font-size:30px;}
+    main .help_main2 .help_3 .help31 tr th:nth-of-type(2){padding-right:10px;}
+    main .help_3 tbody td:nth-of-type(1){
+        width:50%;
+        font-size:18px;
+        text-indent:25px;
+    }
+        main .help_3 tbody td:nth-of-type(1) a{
+        font-size:18px;
+    }
+    
+    main .help_main3{
+        width:100%;
+       
+    }
+    
+    main .help_4{
+        width:100%;
+        float:none;
+        padding-bottom:50px;
+        
+    }
+    
+    main .help_main3 .help_4 .help41 tr th:nth-of-type(1){
+        font-size:30px;
+        text-indent:15px;
+    }
+    main .help_main3 .help_4 .help41 tr th:nth-of-type(2){padding-right:10px;}
+    
+    main .help_main3 .help_4 .help41 tr td:nth-of-type(2) a{
+        font-size:18px;
+    }
+    
+    
+    main .help_5{
+        width:100%;
+        float:none;
+    }
+    
+    main .help_main3 .help_5 .help_52{
+        width:100%;
+        display: inline-block;
+    }
+    main .help_main3 .help_5 .help_52 h1{
+        width:48%;
+        margin:0 auto;
+        padding:0;
+        font-size:30px;
+        text-align:start;
+         text-indent:15px;
+    }
+    main .help_main3 .help_5 .help_52 p{
+        width:50%;
+        text-align:right;
+        font-size:20px;
+    }
+ 
+    main .help_5 .help_51{
+        padding:10px 0 10px 0;
+        border-top:1px solid #616e85;
+    }
+    main .help_5 .help_51 ul li p{
+        margin:0 auto;
+        text-align: center;
+    }
+    main .help_5 .help_51 ul li p:nth-of-type(2){
+        font-size:12px;
+        color:#697995;
+        padding-bottom:8px;
+    }
+    
+    main .help_main3 .help_5 .help_51 ul{margin:0; padding:0;}
+    main .help_main3 .help_5 .help_51 ul li{
+        width:15%;
+        margin: 0px 3% 10px 3%;
+    }
+    main .help_main3 .help_5 .help_51 ul li p{
+        font-size:20px;
+    }
+    main .help_main3 .help_5 .help_51 ul li p:nth-of-type(1){
+        font-weight:bold;
+    }
+    
+    
+}

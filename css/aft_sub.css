@@ -10,9 +10,12 @@
 
 .aft_w legend{
     text-align:center;
-    font-size:24px;
+    font-size:30px;
     font-weight:bold;
     padding:10px;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
+    color:#4bb3a1;
 }
 
 .aft_w ul li label{
@@ -32,4 +35,14 @@
     margin-top:15px;
     border:1px solid #222c3e;
     background:#f5b8bc;
+}
+
+/*=====media======*/
+
+
+
+@media (min-width:480px) and (max-width:1160px){
+    .aft_w ul li label{font-size:18px;}
+    .aft_w ul input{font-size:18px;}
+    .aft_w ul li .save1{padding:10px;}
 }
