@@ -1,0 +1,71 @@
+@import url('common.css');
+
+.aft_w{
+    width:40%;
+    margin:0 auto;
+    border: 1px solid #222c3e;
+    padding:30px;
+    text-align: center;
+}
+
+.aft_w legend{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding:10px;
+    font-family: 'Gothic A1', sans-serif;
+    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
+    color:#4bb3a1;
+}
+
+.aft_w ul li label{
+    display:inline-block;
+    margin:0 auto;
+    text-align:left;
+    font-weight:bold;
+    padding:5px;
+}
+.aft_w ul li .in_w{
+    width:150px;
+    height:25px;
+}
+.aft_w ul li label .shc{
+    width:100%;
+    display:inline-block;
+}
+.aft_w ul .shc li{
+    display:inline-block;
+    font-size:12px;
+    padding:10px 0 ;
+    color:#636e83;
+}
+
+.aft_w ul li p{font-size:12px;}
+.aft_w ul li p input{
+    border:1px solid #222c3e;
+    background:none;
+}
+
+.aft_w ul .bt{
+    width:100%;}
+.aft_w ul .bt li{display:inline-block; padding:8px;}
+.aft_w ul .bt li .save1{
+    border:1px solid #222c3e;
+    background:#f5b8bc;
+    padding:5px 15px;
+}
+.aft_w ul .bt li .save2{
+    border:1px solid #222c3e;
+    background:#fff;
+    padding:5px 15px;
+}
+
+/*=====media======*/
+
+
+
+@media (min-width:480px) and (max-width:1160px){
+    .aft_w ul li label{font-size:18px;}
+    .aft_w ul input{font-size:18px;}
+    .aft_w ul li .save1{padding:10px;}
+}

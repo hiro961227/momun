@@ -63,13 +63,17 @@ main .m_m ul li a p{
     main .m_h ul{
         padding-left:25px;
     }
-    
+    main .m_m{
+        width:100%;
+        padding-top:20px;
+    }
     main .m_m h1{
         width:100%;
         margin:0 auto;
         text-align: center;
-        font-size:30px;
+        font-size:20px;
     }
+    main .m_m ul li img{width:100%;}
     main .m_m ul li a p{
         text-align: center;
     }

@@ -238,20 +238,26 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
     main .help_1 h1{
         width:100%;
         text-align: center;
-        font-size:30px;
+        font-size:20px;
     }
     main .help_1 .help_11{width:100%;}
-    main .help_1 .help_11 tr td{
-        padding:15px;
+    main .help_1 .help_11 tr th{
         font-size:20px;
+    }
+    main .help_1 .help_11 tr td{
+        padding:5px;
+        font-size:12px;
+    }
+    main .help_1 .help_11 tr td:nth-of-type(2){
+        padding:5px;
     }
     main .help_1 .help_11 tr td p{
         margin:0 auto;
-        font-size:15px;    
+        font-size:10px;    
         color:#697995;    
     }
     
-    main .help_main2 .help_2 .help21 tr th:nth-of-type(1){font-size:30px;}
+    main .help_main2 .help_2 .help21 tr th:nth-of-type(1){font-size:20px;}
     main .help_main2 .help_2 .help21 tr th:nth-of-type(2){padding-right:10px;}
     main .help_main2{
         width:100%;
@@ -267,21 +273,21 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
         text-indent:25px;
     }
         main .help_2 tbody td:nth-of-type(1) a{
-        font-size:18px;
+        font-size:15px;
     }
     main .help_3{
         width:100%;
         float:none;
     }
-    main .help_main2 .help_3 .help31 tr th:nth-of-type(1){font-size:30px;}
+    main .help_main2 .help_3 .help31 tr th:nth-of-type(1){font-size:20px;}
     main .help_main2 .help_3 .help31 tr th:nth-of-type(2){padding-right:10px;}
     main .help_3 tbody td:nth-of-type(1){
         width:50%;
-        font-size:18px;
+        font-size:15px;
         text-indent:25px;
     }
         main .help_3 tbody td:nth-of-type(1) a{
-        font-size:18px;
+        font-size:15px;
     }
     
     main .help_main3{
@@ -297,13 +303,13 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
     }
     
     main .help_main3 .help_4 .help41 tr th:nth-of-type(1){
-        font-size:30px;
+        font-size:20px;
         text-indent:15px;
     }
     main .help_main3 .help_4 .help41 tr th:nth-of-type(2){padding-right:10px;}
     
     main .help_main3 .help_4 .help41 tr td:nth-of-type(2) a{
-        font-size:18px;
+        font-size:15px;
     }
     
     
@@ -320,7 +326,7 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
         width:48%;
         margin:0 auto;
         padding:0;
-        font-size:30px;
+        font-size:20px;
         text-align:start;
          text-indent:15px;
     }
@@ -339,7 +345,7 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
         text-align: center;
     }
     main .help_5 .help_51 ul li p:nth-of-type(2){
-        font-size:12px;
+        font-size:10px;
         color:#697995;
         padding-bottom:8px;
     }
@@ -350,7 +356,7 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
         margin: 0px 3% 10px 3%;
     }
     main .help_main3 .help_5 .help_51 ul li p{
-        font-size:20px;
+        font-size:10px;
     }
     main .help_main3 .help_5 .help_51 ul li p:nth-of-type(1){
         font-weight:bold;

@@ -99,25 +99,29 @@ main .shc_b{
     main .notice1 caption{
         width:100%;
         text-align: center;
-        font-size:30px;
+        font-size:20px;
     }
+    .notice1 thead th{font-size:12px;}
     .notice1 tbody td:nth-of-type(1){width:5%;}
+    .notice1 tbody td:nth-of-type(2){width:10%;}
+    .notice1 tbody td:nth-of-type(2) img{width:80%;}
     .notice1 tbody td:nth-of-type(3){
-        width:40%;
-        text-indent:25px;}
+        width:25%;
+        text-indent:5px;}
     .notice1 tbody td:nth-of-type(3) a{
-        font-size:18.5px;
+        font-size:15px;
     }
     
-    .notice1 tbody td:nth-of-type(4){width:15%;}
-    .notice1 tbody td:nth-of-type(5){width:25%;}
+    .notice1 tbody td:nth-of-type(4){width:25%; font-size:12px;}
+    .notice1 tbody td:nth-of-type(5){width:25%; font-size:12px;}
     
 
     main .btn_w a{
         padding:15px 20px;
         border:1px solid#222c3e;
         background:#f5b8bc;
-        font-size:18px;
+        font-size:15px;
+        margin-right:5px;
     }
     
     
@@ -138,7 +142,7 @@ main .shc_b{
         padding-left: 15px;
     }
     main input{
-        font-size:18px;
+        font-size:15px;
     }
 
     
