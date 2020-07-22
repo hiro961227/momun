@@ -371,6 +371,7 @@ main .m_s .m_s_5 ul li a img{width:100%;}
         margin:0 auto;
     }
     main .main_c{width:100%;}
+    main .main_c .m_m_l,main .main_c .m_m_r{float:none;}
 
     }
 
