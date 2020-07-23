@@ -20,7 +20,7 @@ main .main_ct figure ul{
     z-index:0;
 }
 main .main_ct figure ul li{
-    width:315px; height:89px;
+    width:315px; height:88px;
     background-color:rgba(37,46,64,0.7);
     color:#fff;
     display:flex;
@@ -30,6 +30,7 @@ main .main_ct figure ul li{
     margin-bottom:6px;
     z-index:2;
 }
+main .main_ct figure ul li a{padding:20px;}
 main .main_ct figure ul li:hover{
     background-color:rgba(0,0,0,0.4);
 }

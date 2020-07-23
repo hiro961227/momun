@@ -318,7 +318,7 @@
             <p>마이페이지</p>
         </li>
         <li>
-            <a href="#"><img src="img/side_2.png"></a>
+            <a href="login.html"><img src="img/side_2.png"></a>
             <p>관심상품</p>
         </li>
         <li>
@@ -345,56 +345,116 @@
    
    <legend>회원가입</legend>
    
-       <ul>
-            <ul class="id">
-               <li>
-                <label for="n" class="lb_1">아이디</label>
-                <input 
-                    type="text" name="name" required placeholder="아이디를 입력해주세요." size:60px; calss="in_w">
-                    <a href="aft.html"><input type="submit" value="중복확인" class="save2"></a>
-                </li>
-            </ul> 
-            <ul class="pw">
-                <li>
-                    <label for="n" class="lb_1">패스워드</label>
-                    <input 
-                        type="text" name="pw" required placeholder="패스워드를 입력해주세요." size:60px; calss="in_w">
-                </li> 
-                <li>
-                    <label for="n" class="lb_1">패스워드 확인</label>
-                    <input 
-                        type="text" name="pw" required placeholder="동일하게 입력해주세요." size:60px; calss="in_w">
-                </li>   
-            </ul>
-            <ul class="nik">
-               <li>
-                <label for="n" class="lb_1">닉네임</label>
-                <input 
-                    type="text" name="name" required placeholder="닉네임을 입력해주세요." size:60px; calss="in_w">
-
-                    <a href="aft.html"><input type="submit" value="중복확인" class="save2"></a>
-                </li> 
-            </ul>
-            <li>
-                   <label class="lb_1">생년월일</label>
-                   <input type="date" calss="in_w">
-               </li>
-               <li>
-                   <label class="lb_1">이메일</label>
-                   <input type="email" calss="in_w">
-               </li>
-               <li>
-                   <label class="lb_1">주소</label>
-                   <input type="address" calss="in_w">
-               </li>
-            
-            <ul class="bt">
+     <table class="join_1">
+         
+         <tbody>
+             <tr>
+                 <th>
+                      <label for="n" class="lb_1">아이디</label>
+                 </th>
+                 <td>
+                     <input 
+                    type="text" name="name" size:60px; calss="in_w" style="width:100px;">
+                    <a href="#"><input type="submit" value="중복확인" class="save2"></a>
+                    <span>영문소문자/숫자, 4~16자</span>
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label for="n" class="lb_1">비밀번호</label>
+                 </th>
+                 <td>
+                     <input 
+                        type="text" name="pw" size:60px; calss="in_w" style="width:150px;">
+                    <span>영문 대소문자/숫자 4자~16자</span>
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label for="n" class="lb_1">비밀번호 확인</label>
+                 </th>
+                 <td>
+                     <input 
+                        type="text" name="pw" required placeholder="동일하게 입력해주세요." size:60px; calss="in_w" style="width:150px;">
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label for="n" class="lb_1">닉네임</label>
+                 </th>
+                 <td>
+                     <input 
+                    type="text" name="name" size:60px; calss="in_w" style="width:100px;">                
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label class="lb_1">생년월일</label>
+                 </th>
+                 <td>
+                     <input type="date" calss="in_w">
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label class="lb_1">이메일</label>
+                 </th>
+                 <td>
+                     <input type="email" calss="in_w" style="width:80px;">@<select style="width:150px;">
+                   <option>직접입력</option>
+                   <option>naver.com</option>
+                   <option>gmail.com</option>
+               </select>
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label class="lb_1">주소</label>
+                 </th>
+                 <td>
+                     <input type="address" calss="in_w">
+                   <a href="#"><input type="submit" value="우편번호" class="save2"></a>
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label class="lb_1"></label>
+                 </th>
+                 <td>
+                   <input 
+                    type="text" name="name" required placeholder="나머지 주소를 입력해주세요." size:60px; calss="in_w" style="width:250px;">
+                 </td>
+             </tr>
+             <tr>
+                 <th>
+                      <label class="lb_1">전화번호</label>
+                 </th>
+                 <td>
+                     <select>
+                   <option>010</option>
+                   <option>011</option>
+                   <option>016</option>
+                   <option>017</option>
+                   <option>018</option>
+                   <option>019</option>
+               </select> - <input type="phone" calss="in_w" style="width:50px;"> - <input type="phone" calss="in_w" style="width:50px;">
+                 </td>
+             </tr>
+             
+             
+         </tbody>
+         
+               
+         
+     </table>
+      
+      <ul class="bt">
                 <li>
                     <a href="aft.html"></a><input type="submit" value="회원가입" class="save1">
                 </li>
             </ul>
-           </ul>
-    
+      
+       
 </fieldset>
 
 

@@ -43,6 +43,16 @@ main .m_m ul{
     padding-top:20px;
 }
 main .m_m ul li{}
+main .m_m ul li > p{
+    width:35px;
+    padding:0 auto;
+    margin:0 0;
+    font-size:12px;
+    text-align:center;
+    border:1px solid #222c3e;
+    border-radius:20%;
+    background:#f5b8bc;
+}
 main .m_m ul li a img{}
 main .m_m ul li a p{
     margin:0 auto;
@@ -67,6 +77,7 @@ main .m_m ul li a p{
         width:100%;
         padding-top:20px;
     }
+    main .m_m ul li > p{margin:0 auto; text-align: center;}
     main .m_m h1{
         width:100%;
         margin:0 auto;

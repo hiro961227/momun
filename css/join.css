@@ -17,47 +17,48 @@
     text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
     color:#4bb3a1;
 }
-.aft_w ul .id li{width:100%; display:inline-block;}
-.aft_w ul .nik li{width:100%; display:inline-block;}
-.aft_w ul{overflow:hidden; display: block;}
-.aft_w ul .lb_1{
-    float:left;
-    width:38%;
-    text-align:right;
-    font-weight:bold;
-}
-.aft_w ul li .in_w{
-    width:68%;
-    float:right;
-    text-align:left;
-}
-.aft_w ul input{
-    padding:5px;
-    margin:5px;
-}
 
-
-
-.aft_w ul .bt{
-    width:100%;}
-.aft_w ul .bt li{display:inline-block; padding:8px;}
-.aft_w ul .bt li .save1{
-    border:1px solid #222c3e;
-    background:#f5b8bc;
+.aft_w .join_1{width:100%; margin:0 auto;}
+.aft_w .join_1 tbody{width:100%; text-align: center;}
+.aft_w .join_1 tbody tr{}
+.aft_w .join_1 tbody tr th{
+    width:30%;
+    text-align: right; 
     padding:5px 15px;
 }
-.aft_w ul .save2{
-    border:1px solid #222c3e;
-    background:#fff;
-    padding:5px 5px;
+.aft_w .join_1 tbody td{width:50%; text-align: left;}
+.aft_w .join_1 tbody td input{}
+.aft_w .join_1 tbody td span{
+    display:block;
+    font-size:12px;
+    padding:5px 0;
 }
+.aft_w .join_1 tbody td .save2{
+    font-size:12px;
+    border:1px solid #222c3e;
+    background:#f5b8bc;
+}
+
+.aft_w .bt{
+    padding:15px;
+}
+.aft_w .bt .save1{
+    padding:5px;
+    border:1px solid #222c3e;
+    background:#f5b8bc;
+}
+
+
+
 
 /*=====media======*/
 
 
 
 @media (min-width:480px) and (max-width:1160px){
+    .aft_w{width:100%;}
+    .aft_w .join_1 tbody tr th{font-size:13px;}
     .aft_w ul li label{font-size:18px;}
-    .aft_w ul input{font-size:18px;}
+    .aft_w ul input{font-size:13px;}
     .aft_w ul li .save1{padding:10px;}
 }
