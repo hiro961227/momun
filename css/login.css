@@ -25,7 +25,6 @@ body.active .aft_w{
     font-weight:bold;
     padding:10px;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
     color:#4bb3a1;
 }
 
