@@ -1,5 +1,16 @@
 @import url('common.css');
 
+body .aft_w{transition:.5s .3s;}
+
+
+body.active .aft_w{
+    opacity:1;    
+}
+
+.aft_w{
+    opacity:0;
+}
+
 .aft_w{
     width:40%;
     margin:0 auto;

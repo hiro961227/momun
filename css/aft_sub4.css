@@ -51,14 +51,54 @@ body.active .notice1,body.active .sita{
     text-align:left;
 }
 .notice1 tbody{}
-.notice1 tbody tr th{
+.notice1 tbody tr th:nth-of-type(1){
     width:10%;
     text-align:center;
     font-size:12px;
 }
+.notice1 tbody tr:nth-of-type(2){
+    border-top:1px solid #222c3e;
+}
+.notice1 tbody tr:nth-of-type(2) img{
+    width:150px;
+}
+.notice1 tbody tr:nth-of-type(3)){
+    border-top:1px solid #222c3e;
+}
+.notice1 tbody tr th:nth-of-type(2){
+    font-size: 15px;
+    font-weight:200;
+}
+.notice1 tbody tr:nth-of-type(3){
+    background:#d7dbe3;
+}
+.notice1 tbody tr:nth-of-type(3) p{
+    background:url('../img/Q.png') 1% 50% no-repeat;
+    font-weight:100;
+    text-align: left;
+    padding:10px 45px;
+    margin:0 auto;
+}
 .notice1 tbody tr th img{padding:15px;}
-.notice1 tbody tr:nth-of-type(2) th{
+.notice1 tbody tr:nth-of-type(4) th{
+    border-top:2px solid #222c3e;
     border-bottom:2px solid #222c3e;
+}
+.notice1 tbody tr:nth-of-type(4) th p{
+    background:url('../img/A.png') 1% 5% no-repeat;
+    padding-left:40px;
+    margin: 0 auto;
+}
+.notice1 tbody tr th:nth-of-type(1){
+    font-size:15px;
+}
+.notice1 tbody tr th:nth-of-type(2){
+    font-size:14px;
+    text-align: left;
+    white-space: pre-line;
+    padding:15px 5px;
+    font-weight:150;
+    line-height:1.5;
 }
 
 

@@ -10,7 +10,7 @@ main .help_main1{
 }
 main .help_1 h1{
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    font-weight:bold;
     color:#4bb3a1;
     font-size:20px;
     padding-top:20px;
@@ -83,7 +83,7 @@ main .help_2 tbody td:nth-of-type(2){
 main .help_2 tbody tr th:nth-of-type(1){
     text-align:left;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    font-weight:bold;
     color:#4bb3a1;
     font-size:20px;
     padding:20px 0 10px 0;
@@ -122,7 +122,7 @@ main .help_3 tbody td:nth-of-type(2){
 main .help_3 tbody tr th:nth-of-type(1){
     text-align:left;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    font-weight:bold;
     color:#4bb3a1;
     font-size:20px;
     padding:20px 0 10px 0;
@@ -167,7 +167,7 @@ main .help_main3 .help41 tr td:nth-of-type(2){
 main .help_4 tbody tr th:nth-of-type(1){
     text-align:left;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    font-weight:bold;
     color:#4bb3a1;
     font-size:20px;
     padding:20px 0 10px 0;
@@ -190,7 +190,7 @@ main .help_5 .help_52{
 main .help_5 h1{
     width:92%;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #222c3e, 0 1px #222c3e, 1px 0 #222c3e, 0 -1px #222c3e;
+    font-weight:bold;
     color:#4bb3a1;
     font-size:20px;
     padding-top:20px;

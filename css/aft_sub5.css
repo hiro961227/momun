@@ -30,7 +30,7 @@ body.active .aft_w{
 }
 
 .aft_w ul li label{
-    width:100px;
+    width:100%;
    display: block;
     margin:0 auto;
     padding:10px;

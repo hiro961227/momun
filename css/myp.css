@@ -1,5 +1,17 @@
 @import url('common.css');
 
+body .notice1,body .buy1{transition:.5s .3s;}
+
+
+body.active .notice1,body.active .buy1{
+    opacity:1;    
+}
+
+.notice1,.buy1{
+    opacity:0;
+}
+
+
 .notice1{    
     margin:0 auto;
     width:80%;
@@ -13,7 +25,7 @@
     padding-bottom:16px;
     
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
+    font-weight:bold;
     color:#4bb3a1;
     padding-top:20px;
 }

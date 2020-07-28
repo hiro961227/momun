@@ -30,9 +30,16 @@ main .main_ct figure ul li{
     margin-bottom:6px;
     z-index:2;
 }
-main .main_ct figure ul li a{padding:20px;}
+main .main_ct figure ul li a{
+    padding:20px;
+    color:#ffff;
+}
 main .main_ct figure ul li:hover{
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(255,195,199,0.3);
+    
+}
+main .main_ct figure ul li:hover a{
+    color:#434d5e;
 }
 
 
@@ -47,12 +54,12 @@ main .main_bset{
 main .main_bset h1{
     font-size:20px;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
     color:#4bb3a1;
 }
 main .main_bset small{
     font-size:18px;
     font-family: 'Gothic A1', sans-serif;
+    font-weight:bold;
     display:flex;
     justify-content:flex-end;
     margin-right:20px;

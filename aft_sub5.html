@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>회원가입</title>
+    <title>QnA 등록</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/MM.ico">
-    <link href="css/join.css" rel="stylesheet" type="text/css">
+    <link href="css/aft_sub5.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  
+   
 <header>
    <!--PC-->
     <div>				
@@ -338,126 +338,37 @@
         </li>
     </ul>
 </aside>
-
-        
  
 <fieldset class="aft_w"> 
    
-   <legend>회원가입</legend>
+   <legend>QnA 등록</legend>
    
-     <table class="join_1">
-         
-         <tbody>
-             <tr>
-                 <th>
-                      <label for="n" class="lb_1">아이디</label>
-                 </th>
-                 <td>
-                     <input 
-                    type="text" name="name" style="width:100px;">
-                    <a href="#"><input type="submit" value="중복확인" class="save2"></a>
-                    <span>영문소문자/숫자, 4~16자</span>
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label for="n" class="lb_1">비밀번호</label>
-                 </th>
-                 <td>
-                     <input 
-                        type="text" name="pw" style="width:150px;">
-                    <span>영문 대소문자/숫자 4자~16자</span>
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label for="n" class="lb_1">비밀번호 확인</label>
-                 </th>
-                 <td>
-                     <input 
-                        type="text" name="pw" required placeholder="동일하게 입력해주세요." style="width:150px;">
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label for="n" class="lb_1">닉네임</label>
-                 </th>
-                 <td>
-                     <input 
-                    type="text" name="name" style="width:100px;">                
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label class="lb_1">생년월일</label>
-                 </th>
-                 <td>
-                     <input type="date" calss="in_w">
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label class="lb_1">이메일</label>
-                 </th>
-                 <td>
-                     <input type="email" style="width:80px;">@<select style="width:150px;">
-                   <option>직접입력</option>
-                   <option>naver.com</option>
-                   <option>gmail.com</option>
-               </select>
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label class="lb_1">주소</label>
-                 </th>
-                 <td>
-                     <input type="address">
-                   <a href="#"><input type="submit" value="우편번호" class="save2"></a>
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label class="lb_1"></label>
-                 </th>
-                 <td>
-                   <input 
-                    type="text" name="name" required placeholder="나머지 주소를 입력해주세요." style="width:250px;">
-                 </td>
-             </tr>
-             <tr>
-                 <th>
-                      <label class="lb_1">전화번호</label>
-                 </th>
-                 <td>
-                     <select>
-                   <option>010</option>
-                   <option>011</option>
-                   <option>016</option>
-                   <option>017</option>
-                   <option>018</option>
-                   <option>019</option>
-               </select> - <input type="phone" style="width:50px;"> - <input type="phone" style="width:50px;">
-                 </td>
-             </tr>
-             
-             
-         </tbody>
-         
-               
-         
-     </table>
-      
-      <ul class="bt">
-                <li>
-                    <a href="aft.html"></a><input type="submit" value="회원가입" class="save1">
-                </li>
-            </ul>
-      
-       
+   <ul>
+            <li>
+                <label>닉네임</label>
+                <input 
+                    type="text" name="name" required placeholder="닉네임">
+            </li>  
+            <li>
+                <label>패스워드</label>
+                <input 
+                    type="text" name="pw" required placeholder="패스워드">
+            </li>   
+            <li>
+                <label>사진첨부</label>
+                <input type="file" name="upload">
+            </li>
+           <li>
+               <label>질문을 작성해주세요</label>
+               <textarea cols="50" rows="10"></textarea>
+           </li>           
+            <li>
+                <a href="aft_sub3.html"><input type="submit" value="등록" class="put"></a>
+            </li>
+           </ul>
+    
 </fieldset>
 
-   
 <footer>
     
     <div class="f_c">
@@ -506,10 +417,12 @@
         </article>
     </div>
     
-</footer> 
-   
-   
-   <script>
+</footer>
+    
+    
+    
+
+    <script>
         var body = document.querySelector('body');
         
         
@@ -518,6 +431,7 @@
         },10); 
         
     </script>
+    
     
 </body>
 </html>

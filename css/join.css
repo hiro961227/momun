@@ -1,5 +1,17 @@
 @import url('common.css');
 
+body .aft_w{transition:.5s .3s;}
+
+
+body.active .aft_w{
+    opacity:1;    
+}
+
+.aft_w{
+    opacity:0;
+}
+
+
 .aft_w{
     width:40%;
     margin:0 auto;
@@ -14,7 +26,6 @@
     font-weight:bold;
     padding:10px;
     font-family: 'Gothic A1', sans-serif;
-    text-shadow:-1px 0 #242d3f, 0 1px #242d3f, 1px 0 #242d3f, 0 -1px #242d3f;
     color:#4bb3a1;
 }
 

@@ -100,6 +100,11 @@ main .main_c .m_m_r .m_m_rs .sub_5 a:nth-of-type(1){
     background:#f5b8bc;
 }
 
+main .m_s .menu_s_1 a,main .m_s .menu_s_2 a,main .m_s .menu_s_3 a,main .m_s .menu_s_4 a{
+    padding:15px;
+}
+
+
 /**/
 main .m_s{
     width:80%;
@@ -107,11 +112,17 @@ main .m_s{
     text-align: center;
     padding-top:70px;
 }
-main .m_s .selected{}
+main .m_s .selected{
+    
+}
 main .m_s .selected .menu_s_1{
+    position:-webkit-sticky;
+    position:sticky;
+    top:10px; left:0px;
+    
     display:flex;
-    width:100%;
     justify-content: center;
+    width:100%;
     border-top:1.5px solid #222c3e;
 }
 main .m_s .selected .menu_s_1 li{
@@ -136,26 +147,6 @@ main .m_s .selected .m_s_1{
     padding-top:70px;
 }
 /**/
-main .m_s .selected .menu_s_2{
-    display:flex;
-    width:100%;
-    justify-content: center;
-    border-top:1.5px solid #222c3e;
-}
-main .m_s .selected .menu_s_2 li{
-    display:table-cell;
-    border:1.5px solid #222c3e;
-    border-width:1px;
-    text-align:center;
-}
-main .m_s .selected .menu_s_2 li a{
-    display:inline-block;
-    width:100%;
-    padding:10px 100px;
-}
-main .m_s .selected .menu_s_2 li:nth-of-type(2) a{
-    background:#f5b8bc;
-}
 
 main .m_s .selected{}
 main .m_s .selected .m_s_2{
@@ -182,26 +173,6 @@ main .m_s .selected .m_s_2 tr td:nth-of-type(2){
     padding:15px;
 }
 /**/
-main .m_s .selected .menu_s_3{
-    display:flex;
-    width:100%;
-    justify-content: center;
-    border-top:1.5px solid #222c3e;
-}
-main .m_s .selected .menu_s_3 li{
-    display:table-cell;
-    border:1.5px solid #222c3e;
-    border-width:1px;
-    text-align:center;
-}
-main .m_s .selected .menu_s_3 li a{
-    display:inline-block;
-    width:100%;
-    padding:10px 100px;
-}
-main .m_s .selected .menu_s_3 li:nth-of-type(3) a{
-    background:#f5b8bc;
-}
 
 main .m_s .selected .m_s_3{
         padding-bottom:60px;
@@ -275,26 +246,6 @@ main .m_s .selected .m_s_3
 
 
 /**/
-main .m_s .selected .menu_s_4{
-    display:flex;
-    width:100%;
-    justify-content: center;
-    border-top:1.5px solid #222c3e;
-}
-main .m_s .selected .menu_s_4 li{
-    display:table-cell;
-    border:1.5px solid #222c3e;
-    border-width:1px;
-    text-align:center;
-}
-main .m_s .selected .menu_s_4 li a{
-    display:inline-block;
-    width:100%;
-    padding:10px 100px;
-}
-main .m_s .selected .menu_s_4 li:nth-of-type(4) a{
-    background:#f5b8bc;
-}
 
 
 main .m_s .selected .m_s_4{
