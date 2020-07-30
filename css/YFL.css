@@ -67,7 +67,7 @@ main .m_m ul li a p{
 
 
 
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     
     main .m_h{width:100%;}
     main .m_h ul{

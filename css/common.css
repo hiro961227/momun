@@ -628,7 +628,7 @@ aside ul li:hover p{
 }
 
 /*=====media======*/
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     header > div{
         width:100%;
         margin:0 auto;

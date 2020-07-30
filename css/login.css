@@ -74,7 +74,7 @@ body.active .aft_w{
 
 
 
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     .aft_w ul li label{font-size:18px;}
     .aft_w ul input{font-size:18px;}
     .aft_w ul li .save1{padding:10px;}

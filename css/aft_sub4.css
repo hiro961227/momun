@@ -134,7 +134,7 @@ body.active .notice1,body.active .sita{
 
 
 
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     .notice1{width:100%;}
     .notice1 caption{
         width:100%;

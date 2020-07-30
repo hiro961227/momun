@@ -232,7 +232,7 @@ main .help_5 .help_51 ul li p:nth-of-type(2){
 
 
 
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     
     main{width:100%;}
     main .help_1 h1{

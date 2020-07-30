@@ -91,13 +91,13 @@ main .main_bset ul li a p{
 
 
 
-@media (min-width:480px) and (max-width:1160px){
+@media All and (max-width:1160px){
     main .main_ct{
         width:100%;
         margin:0;
     }
 
-    main .main_ct figure a img{display:none;}
+    main .main_ct figure img{display:none;}
     main .main_ct figure ul{width:100%;}
     main .main_ct figure ul li{
         width:100%;
