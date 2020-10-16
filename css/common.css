@@ -417,7 +417,6 @@ header .h_l .h_m_m .menu_3 ul{
     left:100%; top:-200%;
     background:#ffc3c7;
     white-space:pre-line;
-    opacity:0;
     transition:.5s;
 }
 /*header .h_l .h_m_m .menu_3:hover > ul{
