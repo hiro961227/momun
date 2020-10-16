@@ -1,0 +1,55 @@
+@import url('common.css');
+
+
+body .aft_w{transition:.5s .3s;}
+
+
+body.active .aft_w{
+    opacity:1;    
+}
+
+.aft_w{
+    opacity:0;
+}
+
+.aft_w{
+    width:40%;
+    margin:0 auto;
+    border: 1px solid #222c3e;
+    padding:30px;
+    text-align: center;
+}
+
+.aft_w legend{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding:10px;
+    font-family: 'Gothic A1', sans-serif;
+    color:#4bb3a1;
+}
+
+.aft_w ul li label{
+    width:200px;
+   display: block;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+}
+.aft_w ul li .put{
+    border:1px #222c3e;
+    background:#f5b8bc;
+    padding:5px 10px;
+    margin-top:10px;
+}
+
+/*=====media======*/
+
+
+
+@media All and (max-width:1160px){
+    .aft_w ul li label{font-size:18px;}
+    .aft_w ul input{font-size:18px;}
+    .aft_w ul li .save1{padding:10px;}
+}

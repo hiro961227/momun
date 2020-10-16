@@ -21,14 +21,49 @@ main .main_c .m_m_l{
     width:50%;
     float:left;
 }
-main .main_c .m_m_l .main_img{width:90%;}
+main .main_c .m_m_l .m_m_img{
+    width:70%;
+    margin:0 auto;
+    display:block;
+    position: relative;
+}
+/*main .main_c .m_m_l .m_m_img:after{
+    content:'';
+    display:block;
+    width:33px;
+    height:33px;
+    position:absolute;
+    top:0;
+    right:0;
+}*/
+main .main_c .m_m_l .m_m_img .main_img{
+    width:100%;
+    display:block;    
+}
+
 main .main_c .m_m_l article{
     width:80%;
+    margin:0 auto;
     text-align: center;
-    margin:20px 25px;
 }
-main .main_c .m_m_l article img{width:30%;}
 
+/* 돋보기 */
+.magnifier {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85), 0 0 3px 3px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+main .main_c .m_m_l article img{
+    width:20%;
+    margin:15px;
+}
+main .main_c .m_m_l article img.active{
+    border:1px solid#222c3e;
+}
 main .main_c .m_m_r{
     width:50%;
     float:right;
@@ -39,6 +74,7 @@ main .main_c .m_m_r .m_m_ru{
     float:left;
 }
 main .main_c .m_m_r .m_m_ru h2{
+    text-align: left;
     white-space:pre-line;
 }
 main .main_c .m_m_r .m_m_ru .sub_1{
@@ -48,6 +84,11 @@ main .main_c .m_m_r .m_m_ru .sub_1_1{
     display:inline-block;
     margin:0 auto; padding:0 auto;
 }
+
+main .main_c .m_m_r .m_m_ru .sub_1_1 small a{
+        color:#424f65;
+}
+
 main .main_c .m_m_r .m_m_ru .sub_2{
     white-space:pre-line;
     margin:0 auto; 
@@ -113,11 +154,16 @@ main .m_s{
     padding-top:70px;
 }
 main .m_s .selected{
-    
+   text-align: center;
 }
+main .m_s .selected .menu_s_1.navFixed{
+        position: fixed;
+        left:0; top: 0px;
+      }
+
+main .m_s .selected .menu_s_1.active{
+    position:fixed;}
 main .m_s .selected .menu_s_1{
-    position:-webkit-sticky;
-    position:sticky;
     top:10px; left:0px;
     
     display:flex;
@@ -130,6 +176,7 @@ main .m_s .selected .menu_s_1 li{
     border:1.5px solid #222c3e;
     border-width:1px;
     text-align:center;
+    background:#fff;
 }
 main .m_s .selected .menu_s_1 li a{
     display:inline-block;
@@ -138,7 +185,7 @@ main .m_s .selected .menu_s_1 li a{
 }
 
 /**/
-main .m_s .selected .menu_s_1 li:nth-of-type(1) a{
+main .m_s .selected .menu_s_1 li a.active{
     background:#f5b8bc;
 }
 main .m_s .selected .m_s_1{
@@ -201,6 +248,9 @@ main .m_s .selected .m_s_3 .m_s_3_1 thead tr th{
 main .m_s .selected .m_s_3 .m_s_3_1 thead:hover{
     background:rgba(84,171,154,0.8);
 }
+main .m_s .selected .m_s_3 .m_s_3_1 thead.active{
+    background:rgba(84,171,154,0.8);
+}
 
 main .m_s .selected .m_s_3 .m_s_3_1 thead tr th:nth-of-type(1){
     width:60%;
@@ -220,7 +270,8 @@ main .m_s .selected .m_s_3 .m_s_3_1 thead tr th:nth-of-type(4){
 
 main .m_s .selected .m_s_3 .m_s_3_1 tbody{
     text-align:left;
-        border-bottom:2px solid #222c3e;
+    border-bottom:2px solid #222c3e;
+    display:none;
 }
 main .m_s .selected .m_s_3 .m_s_3_1 tbody tr{
     width:100%;
@@ -334,15 +385,15 @@ main .m_s .m_s_5 ul li a img{width:100%;}
         float:left;
     }
     main .main_c .m_m_l article{
-        display: block;
-        width:25%;
-        float:right;
-        padding:35px 15px 0 0;
+        display:block;
+        width:80%;
+        text-align: center;
+        padding:35px 15px 0 15px;
         margin:0 auto;
     }
     main .main_c .m_m_l article img{
-        display: block;
-        width:100%;
+        display:inline-block;
+        width:25%;
         padding-bottom:15px;
     }
 
@@ -378,7 +429,7 @@ main .m_s .m_s_5 ul li a img{width:100%;}
     main .main_c .m_m_r .m_m_ru .sub_1_1{
         width:60%;
         float:right;
-        text-align: center;
+        text-align: left;
         display:inline-block;
         margin:0 auto; padding:0 auto;
     }
@@ -567,9 +618,9 @@ main .m_s .m_s_5 ul li a img{width:100%;}
     main .m_s .selected .m_s_3 .m_s_3_1 thead tr th:nth-of-type(1){
         width:20%;
         background:url('../img/Q.png') 5% 50% no-repeat;
-        background-size:10%;
+        background-size:8%;
         text-align:left;
-        text-indent:20px;
+        text-indent:25px;
     }
     main .m_s .selected .m_s_3 .m_s_3_1 thead tr th:nth-of-type(2){
         width:15%;

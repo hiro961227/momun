@@ -7,308 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/MM.ico">
     <link href="css/YFL_sub.css" rel="stylesheet" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    
+    <script src="js/scroll.js"></script>
+    <script src="js/change.js"></script>
+    <script src="js/nav.js"></script>
+    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/QnA.js"></script>
 </head>
 <body>
-   
   
-<header>
-   <!--PC-->
-    <div>				
-        <nav class="h_l">
-               <ul>
-                   <li>
-                       <a href="#">CATEGORY</a>
-                        <div class="h_m_m">
-                           <div class="menu_1">
-                               <a href="#">필기류</a>
-                                   <ul>                                       <li><a href="#">연필/색연필</a></li>
-                                       <li><a href="#">샤프/샤프심</a></li>
-                                       <li><a href="#">볼펜</a></li>
-                                       <li><a href="#">만년필</a></li>
-                                       <li><a href="#">형광펜/붓펜</a></li>
-                                       <li><a href="#">중성펜</a></li>
-                                       <li><a href="#">멀티펜/특수용펜</a></li>
-                                       <li><a href="#">매직/마카류</a></li>
-                                   </ul>
-                           </div>
-                          <div class="menu_2">
-                               <a href="#">학용품</a>
-                                   <ul>                                               <li><a href="#">풀/접착제</a></li>
-                                       <li><a href="#">수정테이프</a></li>
-                                       <li><a href="#">지우개</a></li>
-                                       <li><a href="#">노트</a></li>
-                                       <li><a href="#">필통</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                            <div class="menu_3">
-                               <a href="#">사무용품</a>
-                                   <ul>                                               <li><a href="#">사무용지</a></li>
-                                       <li><a href="#">노트/수첩</a></li>
-                                       <li><a href="#">포스트잇</a></li>
-                                       <li><a href="#">데스크용품</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                            <div class="menu_4">
-                               <a href="#">팬시용품</a>
-                                   <ul>                                               <li><a href="#">다이어리</a></li>
-                                       <li><a href="#">마스킹테이프</a></li>
-                                       <li><a href="#">스티커</a></li>
-                                       <li><a href="#">핸드폰케이스</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                              <div class="menu_5">
-                               <a href="#">콜라보기획</a>
-                                   <ul>                                       <li><a href="#">기획소개</a></li>
-                                   <li><a href="#">콜라보안내</a></li>
-                                   <li><a href="YFL.html">작가소개</a></li>
-                                   <li>  </li>
-                                   <li>  </li>
-                                   <li>  </li>
-                                   <li>  </li>
-                                   </ul>
-                            </div>
-                           </div>
-                   </li>
-                   <li>
-                       <a href="#">BRAND</a>
-                   </li>
-                   <li>
-                       <a href="event.html">EVENT</a>
-                   </li>
-               </ul>    
-            </nav>
-            
-            <h1>
-                <a href="index.html"><img src="img/logo.png" alt=""></a>
-            </h1>
-				
-            <nav class="h_r">
-               <ul>
-                   <li>
-                       <a href="myp.html">장바구니</a>
-                   </li>
-                   <li>
-                       <a href="https://www.cjlogistics.com/ko/tool/parcel/tracking">주문배송조회</a>
-                   </li>
-                   <li>
-                       <a href="notice.html">공지사항</a>
-                   </li>
-                   <li>
-                       <a href="#">검색하기</a>
-                           <ul class="s_h">
-                               <li class="h_r_s">
-                               <input type="text" 
-                               required
-                               placeholder="검색어를 입력해주세요. #해시태그 로도 검색이 가능합니다."
-                               >
-                               <img src="img/icon_search_hover.png" alt="">
-                               </li>
-                           <li>
-                              <p>대분류</p>
-                               <select>
-                                   <option>필기류</option>
-                                   <option>학용품</option>
-                                   <option>사무용품</option>
-                                   <option>팬시용품</option>
-                                   <option>콜라보기획</option>
-                                </select>
-                           </li>
-                           <li>
-                              <p>소분류</p>
-                               <select>
-                                   <option>연필/색연필</option>
-                                   <option>샤프/샤프심</option>
-                                   <option>볼펜</option>
-                                   <option>만년필</option>
-                                   <option>형광펜/붓펜</option>
-                                   <option>중성펜</option>
-                                   <option>멀티펜/특수용펜</option>
-                                   <option>매직/마카류</option>
-                               </select>
-                           </li>
-                           <li>
-                              <p>분위기</p>
-                               <select>
-                                   <option>차분한</option>
-                                   <option>귀여운</option>
-                                   <option>깔끔한</option>
-                                   <option>통통튀는</option>
-                               </select>
-                           </li>
-                           <li>
-                              <p>브랜드</p>
-                               <select>
-                                   <option>펜텔</option>
-                                   <option>모나비</option>
-                                   <option>파이롯트</option>
-                               </select>
-                           </li>
-                           </ul>
-                   </li>
-               </ul>    
-            </nav>
-    </div>
-    
-    <!--meida-->
-    <div class="m_h_l">
-       <span class="op_l_1"> 〉</span>
-       <span class="op_l_2"> MENU </span>
-        <nav class="h_l">
-               <ul>
-                   <li>
-                       <a href="#">CATEGORY</a>
-                        <div class="h_m">
-                           <div class="h_m_1">
-                               <a href="#">필기류</a>
-                                   <ul class="h_m_11">                                       
-                                      <li><a href="#">연필/색연필</a></li>
-                                       <li><a href="#">샤프/샤프심</a></li>
-                                       <li><a href="#">볼펜</a></li>
-                                       <li><a href="#">만년필</a></li>
-                                       <li><a href="#">형광펜/붓펜</a></li>
-                                       <li><a href="#">중성펜</a></li>
-                                       <li><a href="#">멀티펜/특수용펜</a></li>
-                                       <li><a href="#">매직/마카류</a></li>
-                                   </ul>
-                           </div>
-                          <div class="h_m_2">
-                               <a href="#">학용품</a>
-                                   <ul>                                               <li><a href="#">풀/접착제</a></li>
-                                       <li><a href="#">수정테이프</a></li>
-                                       <li><a href="#">지우개</a></li>
-                                       <li><a href="#">노트</a></li>
-                                       <li><a href="#">필통</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                            <div class="h_m_3">
-                               <a href="#">사무용품</a>
-                                   <ul>                                               <li><a href="#">사무용지</a></li>
-                                       <li><a href="#">노트/수첩</a></li>
-                                       <li><a href="#">포스트잇</a></li>
-                                       <li><a href="#">데스크용품</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                            <div class="h_m_4">
-                               <a href="#">팬시용품</a>
-                                   <ul>                                               <li><a href="#">다이어리</a></li>
-                                       <li><a href="#">마스킹테이프</a></li>
-                                       <li><a href="#">스티커</a></li>
-                                       <li><a href="#">핸드폰케이스</a></li>
-                                       <li><a href="#">기타</a></li>
-                                       <li>  </li>
-                                       <li>  </li>
-                                   </ul>
-                            </div>
-                              <div class="h_m_5">
-                               <a href="#">콜라보기획</a>
-                                   <ul>                                       <li><a href="#">기획소개</a></li>
-                                   <li><a href="#">콜라보안내</a></li>
-                                   <li><a href="#">작가소개</a></li>
-                                   </ul>
-                            </div>
-                           </div>
-                   </li>
-                   <li>
-                       <a href="#">BRAND</a>
-                   </li>
-                   <li>
-                       <a href="#">EVENT</a>
-                   </li>
-                   <li>
-                       <a href="#">장바구니</a>
-                   </li>
-                   <li>
-                       <a href="#">주문배송조회</a>
-                   </li>
-                   <li>
-                       <a href="#">공지사항</a>
-                   </li>
-               </ul>    
-            </nav>
-        </div>
-    <div class="m_h_r">
-       <span class="op_r_2"> SEARCH </span>
-         <span class="op_r_1"> 〈 </span>
-          <nav class="h_r">
-               <ul class="h_r_u">
-                 <li><a href="#"><img src="img/m_s_m.png" alt=""></a></li>
-                 <li><a href="#">가은 님</a></li>
-                </ul>
-                <ul class="h_r_s">
-                    <li><a href="#">마이페이지</a></li>
-                    <li><a href="#">장바구니</a></li>
-                    <li><a href="#">관심상품</a></li>
-                </ul>
-                <ul class="s_h">
-                     <ul class="h_r_s">
-                        <li>
-                          <input type="text" 
-                               required
-                               placeholder="검색어를 입력해주세요."
-                               >
-                            <img src="img/icon_search_hover.png" alt="">
-                          </li>
-                        </ul>
-                    <ul class="h_r_m">
-                       <li>
-                         <p>대분류</p>
-                           <select>
-                                <option>필기류</option>
-                                <option>학용품</option>
-                                <option>사무용품</option>
-                                <option>팬시용품</option>
-                                <option>콜라보기획</option>
-                            </select>
-                        </li>
-                        <li>
-                            <p>소분류</p>
-                             <select>
-                                <option>연필/색연필</option>
-                                <option>샤프/샤프심</option>
-                                <option>볼펜</option>
-                                <option>만년필</option>
-                                <option>형광펜/붓펜</option>
-                                <option>중성펜</option>
-                                <option>멀티펜/특수용펜</option>
-                                <option>매직/마카류</option>
-                            </select>
-                        </li>
-                        <li>
-                            <p>분위기</p>
-                            <select>
-                                <option>차분한</option>
-                                <option>귀여운</option>
-                                <option>깔끔한</option>
-                                <option>통통튀는</option>
-                            </select>
-                        </li>
-                        <li>
-                            <p>브랜드</p>
-                             <select>
-                                <option>펜텔</option>
-                                <option>모나비</option>
-                                <option>파이롯트</option>
-                            </select>
-                        </li>
-                    </ul>
-                </ul>
-        </nav>
-    </div>
-    
-</header>
+
+  <header></header>
+
 <aside>
     <ul>
         <li>
@@ -339,6 +54,9 @@
         </li>
     </ul>
 </aside>
+ <div class="mtopB">
+    <span>Top</span>
+</div>
   
 
 <main>
@@ -356,11 +74,12 @@
     </div>
 <div class="main_c">
         <div class="m_m_l">
-            <img src="img/menu_0.jpg" alt="" class="main_img">
+           <div class="m_m_img" id='main1'>
+                <img id="bigPic" src="img/menu_1.jpg" class="main_img"  alt="" data-zoom="3" />
+            </div>
             <article>
-                <img src="img/menu_1.jpg" alt="">
-                <img src="img/menu_2.jpg" alt="">
-                <img src="img/menu_3.jpg" alt="">
+                <img id="subPic" src="img/menu_1.jpg" alt="" class="active">
+                <img id="subPic" src="img/menu_2.jpg" alt="">
             </article>
         </div>
         <div class="m_m_r">
@@ -410,7 +129,7 @@
                
                <p class="sub_4">
                     <strong>합산가격
-                    ￦nn,000</strong>
+                    ￦20,000</strong>
                 </p>
                <div class="sub_5">
                     <a href="#">구매하기</a>
@@ -423,97 +142,156 @@
 
 <div class="m_s">        
     <div class="selected">            
-        <ul id="prdDetail" class="menu_s_1">
-              <li><a href="#prdDetail">상품상세정보</a></li>
+        <ul class="menu_s_1">
+              <li><a href="#prdDetail" class="active">상품상세정보</a></li>
               <li><a href="#prdInfo">배송/교환/환불</a></li>
              <li><a href="#prdQnA">상품Q&A</a></li>
              <li><a href="#prdReview">상품이용후기</a></li>                
-          </ul>
-       <div class="m_s_1"><img src="img/sub2_h.jpg" alt=""></div>
-       
-       
-        <ul id="prdInfo" class="menu_s_2">
-                            
-          
-            <table class="m_s_2">
-               <tr>
-                    <td>배송정보</td>
-                    <td>  <p>배송비 : 기본배송료는 2,500원 입니다. (도서,산간,오지 일부지역은 배송비가 추가될 수 있습니다) 
-                    35,000원 이상 구매시 무료배송입니다.
-                    본 상품의 평균 배송일은 14일입니다.(입금 확인 후) 설치 상품의 경우 다소 늦어질수 있습니다.
-                    [배송예정일은 주문시점(주문순서)에 따른 유동성이 발생하므로 평균 배송일과는 차이가 발생할 수 있습니다.] 
-                    본 상품의 배송 가능일은 14일 입니다. 배송 가능일이란, 본 상품을 주문 하신 고객님들께 상품 배송이 가능한 기간을 의미합니다.      
-                    (단, 연휴 및 공휴일은 기간 계산시 제외하며 현금 주문일 경우 입금일 기준 입니다.) </p></td>
-               </tr>
-                <tr>
-                    <td>
-                    교환/환불
-                    </td>
-                    <td><p>상품 청약철회 가능기간은 상품 수령일로 부터 7일 이내 입니다.
-                        상품 택(tag)제거 또는 개봉으로 상품 가치 훼손 시에는 7일 이내라도 교환 및 반품이 불가능합니다.
-                        저단가 상품, 일부 특가 상품은 고객 변심에 의한 교환, 반품은 고객께서 배송비를 부담하셔야 합니다(제품의 하자, 배송오류는 제외)
-                        일부 상품은 신모델 출시, 부품가격 변동 등 제조사 사정으로 가격이 변동될 수 있습니다.
-                        제품 및 본 상품의 박스 훼손, 분실 등으로 인한 상품 가치 훼손 시 교환 및 반품이 불가능 하오니 양해 바랍니다.
-                    </p></td>
-               </tr>
-                </table>   
-            </ul>        
+        </ul>
+        <div id="prdDetail" class="m_s_1"><img src="img/sub2_h.jpg" alt=""></div>
 
-      <ul id="prdQnA" class="menu_s_3">
-           
-       <div class="m_s_3">
-            <table class=m_s_3_1> 
-              <caption>상품QnA</caption>
-               <thead>
+        <div id="prdInfo" class="menu_s_2">
+                <table class="m_s_2">
+                   <tr>
+                        <td>배송정보</td>
+                        <td>  <p>배송비 : 기본배송료는 2,500원 입니다. (도서,산간,오지 일부지역은 배송비가 추가될 수 있습니다) 
+                        35,000원 이상 구매시 무료배송입니다.
+                        본 상품의 평균 배송일은 14일입니다.(입금 확인 후) 설치 상품의 경우 다소 늦어질수 있습니다.
+                        [배송예정일은 주문시점(주문순서)에 따른 유동성이 발생하므로 평균 배송일과는 차이가 발생할 수 있습니다.] 
+                        본 상품의 배송 가능일은 14일 입니다. 배송 가능일이란, 본 상품을 주문 하신 고객님들께 상품 배송이 가능한 기간을 의미합니다.      
+                        (단, 연휴 및 공휴일은 기간 계산시 제외하며 현금 주문일 경우 입금일 기준 입니다.) </p></td>
+                   </tr>
                     <tr>
-                        <th>재입고</th>
-                        <th>2020-07-15</th>
-                        <th>미르</th>
-                        <th>답변완료</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td colspan="4">재입고 예정일이 언제인가요?</td>
-                    </tr>
-                    <tr>
-                        <td colspan="4">
-                           <p>문의 감사합니다! 재입고는 7월 23일로 예정되어있습니다.
-                            </p>
+                        <td>
+                        교환/환불
                         </td>
-                    </tr>
-               </tbody>
-           </table>
-       </div>
-    </ul>
+                        <td><p>상품 청약철회 가능기간은 상품 수령일로 부터 7일 이내 입니다.
+                            상품 택(tag)제거 또는 개봉으로 상품 가치 훼손 시에는 7일 이내라도 교환 및 반품이 불가능합니다.
+                            저단가 상품, 일부 특가 상품은 고객 변심에 의한 교환, 반품은 고객께서 배송비를 부담하셔야 합니다(제품의 하자, 배송오류는 제외)
+                            일부 상품은 신모델 출시, 부품가격 변동 등 제조사 사정으로 가격이 변동될 수 있습니다.
+                            제품 및 본 상품의 박스 훼손, 분실 등으로 인한 상품 가치 훼손 시 교환 및 반품이 불가능 하오니 양해 바랍니다.
+                        </p></td>
+                   </tr>
+                    </table>   
+                </div>        
 
-        <ul id="prdReview" class="menu_s_4">      
-        
-          <div class="m_s_4">
-              <table class="m_s_3_2"> 
-                  <caption>상품 이용후기</caption>
+        <div id="prdQnA" class="menu_s_3">
+
+           <div class="m_s_3">
+                <table class="m_s_3_1"> 
+                  <caption>상품QnA</caption>
+                  
                    <thead>
                         <tr>
-                            <th><p>★★★★★</p></th>
-                            <th>귀여워요ㅎㅎ</th>
+                            <th>재입고</th>
                             <th>2020-07-15</th>
-                            <th>은솔</th>
+                            <th>미르</th>
+                            <th>답변완료</th>
                         </tr>
                     </thead>
-                   </table>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">재입고 예정일이 언제인가요?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                               <p>문의 감사합니다! 재입고는 7월 23일로 예정되어있습니다.
+                                </p>
+                            </td>
+                        </tr>
+                   </tbody>
+                   
+                   <thead>
+                        <tr>
+                            <th>배송문의</th>
+                            <th>2020-07-12</th>
+                            <th>265ywe8</th>
+                            <th>답변완료</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">배송 시작됐나요??</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                               <p>문의 감사합니다! 배송처리중에 있으며 배송시 문자 안내가 발송될 예정입니다.
+                                </p>
+                            </td>
+                        </tr>
+                   </tbody>
+                   
+                   <thead>
+                        <tr>
+                            <th>색상문의입니당</th>
+                            <th>2020-07-10</th>
+                            <th>은솔</th>
+                            <th>답변완료</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">색상은 이것밖에 없나용?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                               <p>문의 감사합니다! 현재 색상은 단일 컬러입니다.
+                                </p>
+                            </td>
+                        </tr>
+                   </tbody>
+                   
+                   <thead>
+                        <tr>
+                            <th>선물포장되나요????</th>
+                            <th>2020-07-08</th>
+                            <th>sdf579</th>
+                            <th>답변완료</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">선물포장이 따로 있나요?</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                               <p>문의 감사합니다! 별도의 선물포장 옵션은 없습니다. 죄송합니다.
+                                </p>
+                            </td>
+                        </tr>
+                   </tbody>
+                   
+               </table>
+           </div>
+        </div>
+
+        <div id="prdReview" class="menu_s_4">      
+
+              <div class="m_s_4">
+                  <table class="m_s_3_2"> 
+                      <caption>상품 이용후기</caption>
+                       <thead>
+                            <tr>
+                                <th><p>★★★★★</p></th>
+                                <th>귀여워요ㅎㅎ</th>
+                                <th>2020-07-15</th>
+                                <th>은솔</th>
+                            </tr>
+                        </thead>
+                       </table>
+                 </div>
              </div>
-         </ul>
-         
-       <div class="m_s_5">
-           <h2>관련상품</h2>
-           <ul>
-               <li><a href="#"><img src="img/img_1.jpg" alt=""></a></li>
-               <li><a href="#"><img src="img/img_2.jpg" alt=""></a></li>
-               <li><a href="#"><img src="img/img_3.jpg" alt=""></a></li>
-               <li><a href="#"><img src="img/img_4.jpg" alt=""></a></li>
-               <li><a href="#"><img src="img/img_5.jpg" alt=""></a></li>
-           </ul>
-       </div>
+
+        <div class="m_s_5">
+               <h2>관련상품</h2>
+               <ul>
+                   <li><a href="#"><img src="img/img_1.jpg" alt=""></a></li>
+                   <li><a href="#"><img src="img/img_2.jpg" alt=""></a></li>
+                   <li><a href="#"><img src="img/img_3.jpg" alt=""></a></li>
+                   <li><a href="#"><img src="img/img_4.jpg" alt=""></a></li>
+                   <li><a href="#"><img src="img/img_5.jpg" alt=""></a></li>
+               </ul>
+           </div>
         
            
        
@@ -522,55 +300,7 @@
     
 </main>
    
-<footer>
-    
-    <div class="f_c">
-    <h1>
-         <a href="index.html"><img src="img/footer_lofo.png" alt=""></a>
-    </h1>
-    <div class="f_m">
-        <nav>
-             <ul>
-                <li>
-                  <a href="#">회사소개</a>
-                </li>
-                <li>
-                  <a href="#">이용약관</a>
-                </li>
-                <li>
-                  <a href="#"><b>개인정보취급방침</b></a>
-                </li>
-                <li>
-                  <a href="#">제휴ㆍ광고문의</a>
-                </li>
-                <li>
-                  <a href="#">QnA</a>
-                </li>
-                <li>
-                  <a href="#">입금확인하기</a>
-                </li>
-              </ul>  
-        </nav>
-        <p>상호명: 작전명! 모두의 문구 서울 강북구 / 대표자: 김뫄뫄  / 사업자등록번호 : nnn-nn-nnnn  / momun@gmail.com 
-               Copyright © 2020Momun  All Rights Reserved</p>  
-    </div>
-    </div>       
-        
-    <div class="f_r">
-        <article>
-            <span class="f_t">
-               <a href="https://www.instagram.com/?hl=ko" target="_blank">instagram</a>
-               <a href="https://twitter.com/?lang=ko" target="_blank">twitter</a>
-               <a href="https://www.facebook.com/" target="_blank">facebook</a>
-            </span>
-            <span class="f_b">
-                <p>고객센터</p>
-                <strong>3451-1004</strong>
-            </span>
-        </article>
-    </div>
-    
-</footer>
+<footer></footer>
     
     
 

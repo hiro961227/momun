@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>로그인</title>
+    <title>QnA 등록</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/MM.ico">
-    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <link href="css/qna_sub.css" rel="stylesheet" type="text/css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -49,50 +49,43 @@
 <div class="mtopB">
     <span>Top</span>
 </div>
-        
  
 <fieldset class="aft_w"> 
    
-   <legend>로그인</legend>
+   <legend>QnA 등록</legend>
    
    <ul>
             <li>
-                <label for="n">ID</label>
+                <label>닉네임</label>
                 <input 
-                    type="text" name="name" required placeholder="아이디를 입력해주세요." >
+                    type="text" name="name" required placeholder="닉네임">
             </li>  
             <li>
-                <label for="n">PW</label>
+                <label>패스워드</label>
                 <input 
-                    type="text" name="pw" required placeholder="패스워드를 입력해주세요." >
+                    type="text" name="pw" required placeholder="패스워드">
             </li>   
-            <ul class="shc">
-                <li>ID찾기</li>
-                <li>|</li>
-                <li>PW찾기</li>
-            </ul>
-               <li>
-                <p>
-                    아이디저장
-                    <input type="checkbox">
-                </p>
-                </li>
-            <ul class="bt">
-                <li>
-                    <a href="#"></a><input type="submit" value="로그인" class="save1">
-                </li>
-                <li>
-                    <a href="join.html"><input type="submit" value="회원가입" class="save2"></a>
-                </li>
-            </ul>
+            <li>
+                <label>사진첨부</label>
+                <input type="file" name="upload">
+            </li>
+           <li>
+               <label>질문을 작성해주세요</label>
+               <textarea cols="50" rows="10"></textarea>
+           </li>           
+            <li>
+                <a href="aft_sub3.html"><input type="submit" value="등록" class="put"></a>
+            </li>
            </ul>
     
 </fieldset>
-   
 
 <footer></footer>
-   
-   <script>
+    
+    
+    
+
+    <script>
         var body = document.querySelector('body');
         
         
@@ -101,6 +94,7 @@
         },10); 
         
     </script>
+    
     
 </body>
 </html>

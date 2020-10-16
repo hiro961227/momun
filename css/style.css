@@ -6,12 +6,17 @@ main .main_ct{
     height:528px;
     margin:0 auto;
 }
-main .main_ct figure img{width:100%;}
+
 main .main_ct figure{
     text-align:center;
     margin:0 auto;
     padding:0 auto;
     position:relative;
+}
+main .main_ct figure img{
+    width:100%;
+    position:absolute;
+    left:0%; top:0;
 }
 
 main .main_ct figure ul{
@@ -21,7 +26,7 @@ main .main_ct figure ul{
 }
 main .main_ct figure ul li{
     width:315px; height:88px;
-    background-color:rgba(37,46,64,0.7);
+    background-color:rgba(37,46,64,0.5);
     color:#fff;
     display:flex;
     align-items:center;
@@ -32,16 +37,12 @@ main .main_ct figure ul li{
 }
 main .main_ct figure ul li a{
     padding:20px;
-    color:#ffff;
+    color:#fff;
 }
-main .main_ct figure ul li:hover{
-    background-color:rgba(255,195,199,0.3);
-    
+main .main_ct figure ul li:hover,
+main .main_ct figure ul li.on{
+    background-color:rgba(255,195,199,0.7); 
 }
-main .main_ct figure ul li:hover a{
-    color:#434d5e;
-}
-
 
 
 
@@ -97,7 +98,7 @@ main .main_bset ul li a p{
         margin:0;
     }
 
-    main .main_ct figure img{display:none;}
+    main .main_ct figure img{opacity: 0;}
     main .main_ct figure ul{width:100%;}
     main .main_ct figure ul li{
         width:100%;
@@ -106,19 +107,19 @@ main .main_bset ul li a p{
         color: #fff;
     }
     main .main_ct figure ul li:nth-of-type(1){
-        background:url('../img/mian_1.jpg') 50% 50%;
+        background:url('../img/mian_6.jpg') 50% 50%;
     }
     main .main_ct figure ul li:nth-of-type(2){
-        background:url('../img/mian_5.jpg') 40% 25%;
+        background:url('../img/mian_1.jpg') 40% 25%;
     }
     main .main_ct figure ul li:nth-of-type(3){
-        background:url('../img/mian_4.jpg') 50% 55%;
+        background:url('../img/mian_5.jpg') 50% 55%;
     }
     main .main_ct figure ul li:nth-of-type(4){
-        background:url('../img/mian_3.jpg') 50% 50%;
+        background:url('../img/mian_4.jpg') 50% 50%;
     }
     main .main_ct figure ul li:nth-of-type(5){
-        background:url('../img/mian_6.jpg') 50% 50%;
+        background:url('../img/mian_3.jpg') 50% 50%;
     }
     main .main_ct figure ul li:nth-of-type(6){
         background:url('../img/mian_2.jpg') 50% 55%;
