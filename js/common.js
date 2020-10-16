@@ -38,31 +38,23 @@ $(function(){
             var menu = $('header .pc_header .h_l .h_m_m div');
             var menuSub = $('header .pc_header .h_l .h_m_m div ul');
             
-            console.log(menu);
-            console.log(menuSub);
-
 
            mainMenu.hover(function(){
                 dropMenu.stop().slideDown(300);
             },function(){ 
-                dropMenu.stop().slideUp(300);
+                dropMenu.stop().slideUp(350);
             }
            );
             
-            //해당 idx에 맞는 자식요소만 불러오는거...:)..
-            menu.mouseover(function(idx){
+            menu.hover(function(idx){
                 idx = $(this).index();
-                menu.children(idx).fadeIn(300);
-            });
+                menuSub.eq(idx).stop().fadeIn(300);
+            },function(idx){
+                idx = $(this).index();
+                menuSub.eq(idx).stop().fadeOut(150);
+            }
+            );
 
-/*            function menuDrop(idx){
-                var idx = $(this).index();
-
-                menu.eq(idx).hover(function(){
-                    console.log('idx');
-                    menuSub.eq(idx).fadeIn(300);
-                });
-            }*/
          //pc end
         }
         

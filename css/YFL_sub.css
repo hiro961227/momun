@@ -111,13 +111,12 @@ main .main_c .m_m_r  .m_m_ru .sub_4 button{
     background:none;
     font-size:20px;
 } 
-main .main_c .m_m_r  .m_m_ru .sub_4 span input{
+#numberUpDown{
     width:30px; 
-    margin:0 auto; 
+    display:inline-block;
     text-align:center;
     padding:5px auto;
     border:0px;
-    background:
 }
 
 main .main_c .m_m_r .m_m_rs{
