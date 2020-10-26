@@ -9,14 +9,14 @@
     <link href="css/YFL_sub.css" rel="stylesheet" type="text/css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/common.js"></script>
     
     <script src="js/scroll.js"></script>
     <script src="js/change.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/itemlist_xml.js"></script>
     
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/QnA.js"></script>
     <script src="js/plusminus.js"></script>
 </head>
@@ -74,6 +74,22 @@
         </ul>
     </div>
 <div class="main_c">
+       <article class="popup">
+           <p>선택한 상품이 장바구니에 담겼습니다!
+           장바구니로 이동하시겠습니까?</p>
+           <div class="popup_btn">
+               <span id="wait">계속 쇼핑하기</span>
+               <span id="gogo">이동하기</span>
+           </div>           
+       </article>
+       <article class="popup2">
+           <p>선택한 상품이 관심상품으로 등록되었습니다!
+           관심상품 페이지로 이동하시겠습니까?</p>
+           <div class="popup_btn">
+               <span id="wait2">계속 쇼핑하기</span>
+               <span id="gogo2">이동하기</span>
+           </div>           
+       </article>
         <div class="m_m_l">
            <div class="m_m_img" id='main1'>
                 <img id="bigPic" src="img/menu_1.jpg" class="main_img"  alt="" data-zoom="3" />
@@ -108,7 +124,7 @@
                 </p>
                 
                 <p class="sub_3">상품선택
-                    <select>
+                    <select id="itemlist">
                        <option>PLAN PACKAGE</option>
                        <option>YOU GO GIRL</option>
                        <option>THE PLANNER.2020</option>
@@ -128,15 +144,26 @@
             </div>           
             
             <div class="m_m_rs">
+              
+              <!--<table class="optionclick">
+                   <thead>
+                       <tr>                           
+                           <td>PLAN PACKAGE</td>
+                           <td>1</td>
+                           <td>20,000</td>
+                           <td id="removeitem">삭제</td>
+                       </tr>
+                    </thead>
+              </table>-->
                
-               <p class="sub_4">
+               <p class="sub_6">
                     <strong>합산가격
-                    ￦20,000</strong>
+                    ￦</strong>
                 </p>
                <div class="sub_5">
                     <a href="#">구매하기</a>
-                    <a href="myp.html">장바구니</a>
-                    <a href="#">관심상품등록</a>
+                    <a href="#" id="buyBtn">장바구니</a>
+                    <a href="#" id="likeBtn">관심상품등록</a>
                 </div>
             </div>
         </div>

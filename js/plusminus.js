@@ -13,7 +13,6 @@ $(function(){
             $('#numberUpDown').text(num);
         });
     
-    
     $('#plusBtn').click(function(e){
         e.preventDefault();
         
@@ -28,5 +27,36 @@ $(function(){
         }
             $('#numberUpDown').text(num);
     });
+    
+    
+    
+    //장바구니버튼
+    function onBtn(){
+        $('#buyBtn').click(function(e){
+            e.preventDefault();
+            $('.popup').addClass('on');
+        })
+        $('#wait').click(function(){
+            $('.popup').removeClass('on');
+        })
+        $('#gogo').click(function(){
+            location.href = "/myp.html";
+        })  
+    }
+    onBtn();
+    //관심상품버튼
+    function onBtn2(){
+        $('#likeBtn').click(function(e){
+            e.preventDefault();
+            $('.popup2').addClass('on');
+        })
+        $('#wait2').click(function(){
+            $('.popup2').removeClass('on');
+        })
+        $('#gogo2').click(function(){
+            location.href = "/login.html";
+        })  
+    }
+    onBtn2();
     
 });
